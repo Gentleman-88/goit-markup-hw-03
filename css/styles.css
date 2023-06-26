@@ -21,6 +21,13 @@ body{
     text-decoration: none;
 }
 
+.list {
+    list-style: none;
+}
+
+/*--header--*/
+
+ 
 .logo{
     font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -36,9 +43,6 @@ body{
         color: #2E2F42;
 }
 
-.list{
-    list-style: none;
-}
 
 .navigation{
    
@@ -76,6 +80,8 @@ body{
 
 }
 
+/*--section-one--*/
+
 .section-one{
     background-color: #2E2F42;
 }
@@ -106,6 +112,7 @@ body{
     background-color: #404BBF;
 }
 
+/*--section-two--*/
 
 .section-two-headlines{
         font-weight: 500;
@@ -123,6 +130,8 @@ body{
         letter-spacing: 0.02em;   
         color: #434455;
 }
+
+/*--section-three--*/
 
 .section-three-headline{
    
@@ -144,6 +153,8 @@ body{
     background-color: #FFFFFF
 }
 
+
+/*--footer--*/
 
 .footer-p{
  
