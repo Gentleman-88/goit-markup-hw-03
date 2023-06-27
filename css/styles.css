@@ -27,8 +27,13 @@ body{
 
 /*--header--*/
 
+.container{
+    width: 1158px;
+}
+
 .container-header{
     display: flex;
+    padding: 0 15px;
 }
 
 
