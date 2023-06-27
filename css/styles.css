@@ -6,6 +6,10 @@ body{
     color: #434455;
 }
 
+img{
+    display: block;
+}
+
 :root{
    --background-color:#FFFFFF;
    --primary-font: "Roboto",
