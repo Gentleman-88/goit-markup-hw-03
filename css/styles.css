@@ -27,6 +27,10 @@ body{
 
 /*--header--*/
 
+.page-contact{
+    display: flex;
+    gap: 40;
+}
  
 .logo{
     font-family: "Raleway", sans-serif;
@@ -43,9 +47,19 @@ body{
         color: #2E2F42;
 }
 
+.page-nav{
+    display: flex;
+    align-items: center;
+    column-gap: 76px;
+}
+
+.menu{
+    display: flex;
+    gap: 76px;
+}
+
 
 .navigation{
-   
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -76,27 +90,49 @@ body{
 }
 
 .contact-info{
+    display: flex;
     font-style: normal;
+    line-height: 1.5;
+}
 
+.page-contact{
+    display: flex;
+    gap: 40px;
 }
 
 /*--section-one--*/
+
+.container-section-one{
+    width: 1440px;
+    height: 600px;
+}
 
 .section-one{
     background-color: #2E2F42;
 }
 
 .section-one-headline{
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
+    display: flex;
+    padding: 188px 472px 292px;
+        width: 496px;
+        flex-direction: column;
+        flex-shrink: 0;
         text-align: center;
+        font-size: 56px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 }
 
 .button-order{
     background-color:#4D5AE5;
+    display: inline-flex;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
