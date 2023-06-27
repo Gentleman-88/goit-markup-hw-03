@@ -114,22 +114,39 @@ img{
 
 /*--section-one--*/
 
+.container-section-one{
+    padding: 188px 0; 
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+}
 
 .section-one{
     background-color: #2E2F42;
 }
 
 .section-one-headline{
-        font-size: 56px;
-        font-family: Roboto;
-        font-weight: 700;
+    margin-left: 472px;
+    display: flex;
+    width: 496px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 }
 
 .button-order{
-    background-color:#4D5AE5;
+        margin: 0 635px 188px;
+        border: none;
+        padding: 16px 32px;
+        gap: 10px;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        display: block;
+        background-color:#4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
