@@ -90,11 +90,12 @@ img{
 
 .menu{
     display: flex;
-    gap: 76px;
+    gap: 40px;
 }
 
 
 .navigation{
+        padding: 24px 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -138,10 +139,9 @@ img{
 /*--section-one--*/
 
 .container-section-one{
-    padding: 188px 0; 
     width: 1440px;
     height: 600px;
-    flex-shrink: 0;
+    padding: 188px 0;
 }
 
 .section-one{
@@ -150,9 +150,8 @@ img{
 
 .section-one-headline{
     margin-left: 472px;
-    display: flex;
+    max-width: 496px;
     width: 496px;
-    flex-shrink: 0;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -169,6 +168,8 @@ img{
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         display: block;
+        min-width: 169px;   
+        height: 56px;
         background-color:#4D5AE5;
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -262,6 +263,7 @@ img{
 .list-our-team{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-four-ul{
@@ -270,6 +272,7 @@ img{
 }
 
 .section-four-headlines{
+    margin-bottom: 8px;
     text-align: center;
     color: #2E2F42;
         text-align: center;
@@ -299,12 +302,13 @@ img{
 
 .footer{
     background-color: #2E2F42;
-    padding: 101px 0;
+    padding: 100px 0;
 }
 
 .footer-logo{
-    display: block;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -352,6 +356,7 @@ img{
 .button-all:focus{
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid;
     border: 1px solid;
 }
 
