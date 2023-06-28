@@ -47,6 +47,8 @@ img{
 
 .list {
     list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 /*--header--*/
@@ -61,6 +63,7 @@ img{
 
 .page-header{
     border-bottom: 1px solid #e7e9fc;
+    padding: 25.5px 0;
 }
  
 .logo{
