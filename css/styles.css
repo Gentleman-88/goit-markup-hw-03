@@ -138,18 +138,15 @@ img{
 
 /*--section-one--*/
 
-.container-section-one{
-    width: 1440px;
-    height: 600px;
-    padding: 188px 0;
-}
-
 .section-one{
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-one-headline{
-    margin-left: 472px;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 496px;
     width: 496px;
     text-align: center;
@@ -161,7 +158,8 @@ img{
 }
 
 .button-order{
-        margin: 0 635px 188px;
+    margin-left: auto;
+    margin-right: auto;
         border: none;
         padding: 16px 32px;
         gap: 10px;
@@ -356,8 +354,8 @@ img{
 .button-all:focus{
     background-color: #404BBF;
     color: #FFFFFF;
-    border: 1px solid;
-    border: 1px solid;
+    border: 1px solid transparent;
+
 }
 
 
