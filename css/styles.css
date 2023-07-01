@@ -139,7 +139,6 @@ img{
 .page-nav{
     display: flex;
     align-items: center;
-    column-gap: 76px;
 }
 
 .menu{
@@ -279,7 +278,7 @@ img{
 /*--section-three--*/
 
 .section-three{
-    padding: 120px 0;
+    padding-bottom: 120px;
 }
 
 .section-three-headline{
